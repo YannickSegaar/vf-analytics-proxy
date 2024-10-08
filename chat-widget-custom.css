@@ -1,0 +1,140 @@
+
+  
+  /* Customize the header */
+  .vfrc-header {
+    background-color: #042d62; /* Blue background */
+    background-image: url('https://cdn-ilbjehj.nitrocdn.com/JKDUxvBhQYoRjXJVdgwijUeNHBiWkdYD/assets/images/optimized/rev-b869123/gotourshawaii.com/wp-content/uploads/2024/05/Black-White-Modern-Handwritten-Square-Studio-Logo-3-1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* White text color for the header */
+    padding: 10px;
+    border-radius: 12px 12px 0 0; /* Rounded corners for the top */
+    position: relative; /* Make the header a positioning reference for the dot */
+  }
+  
+  /* Add the green dot indicator to the header */
+  .vfrc-header::after {
+    content: ""; /* No text, just a dot */
+    position: absolute; /* Position it relative to the header */
+    top: 10px; /* Adjust this value for vertical positioning */
+    right: 23px; /* Adjust this value for horizontal positioning */
+    width: 14px; /* Adjust for the size of the dot */
+    height: 14px; /* Adjust for the size of the dot */
+    background-color: #39d353; /* Color of the dot */
+    border-radius: 50%; /* Make it a circle */
+    border: 1px solid white; /* Add a border; adjust color and thickness */
+    box-sizing: border-box; /* Include the border in the element's dimensions */
+  }
+  
+    /* Header Assistant info (e.g., name and description) */
+    .vfrc-assistant-info--title {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    
+    .vfrc-assistant-info--description {
+      font-size: 1em;
+    }
+    
+    /* Customize the avatar image in the header */
+    .vfrc-avatar {
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    /* Customize the footer */
+    .vf-footer {
+      background-color: #042d62; /* Blue background */
+      background-image: url('https://cdn-ilbjehj.nitrocdn.com/JKDUxvBhQYoRjXJVdgwijUeNHBiWkdYD/assets/images/optimized/rev-b869123/gotourshawaii.com/wp-content/uploads/2024/05/Black-White-Modern-Handwritten-Square-Studio-Logo-3-1.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 10px;
+      border-radius: 0 0 12px 12px; /* Rounded corners for the bottom */
+    }
+    
+    /* Ensure the message input field is not overridden */
+    .vfrc-input {
+      background-color: white;
+      color: #000;
+      border-radius: 10px;
+      padding: 10px;
+      border: none;
+    }
+    
+    /* Customize the chat launcher */
+    .vfrc-launcher {
+      background-color: #ff6900;
+      background-image: url('https://cdn-ilbjehj.nitrocdn.com/JKDUxvBhQYoRjXJVdgwijUeNHBiWkdYD/assets/images/optimized/rev-b869123/gotourshawaii.com/wp-content/uploads/2024/05/Black-White-Modern-Handwritten-Square-Studio-Logo-3-1.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+    }
+    
+  
+    /* YRS: HIERONDER KOMEN CSS OVERRIDES VAN NIKO SHOPIFY EXTENSIONS WIDGET.CSS STYLES */
+  
+    .vfrc-timestamp {
+      display: none;
+    }
+    
+    .vfrc-message {
+      margin-left: 0px !important;
+      margin-right: -10px !important;
+    }
+    
+    .vfrc-system-response--list {
+      margin-right: 40px !important;
+    }
+    
+    .vfrc-system-response--message {
+      margin-right: 0px !important;
+    }
+    
+    .vfrc-system-response .vfrc-avatar {
+      display: none;
+    }
+    
+    .vfrc-system-response--indicator {
+      display: none !important;
+    }
+    
+    .vfrc-user-response--row {
+      margin-right: 0px !important;
+      flex-direction: row-reverse !important;
+      margin-right: 10px !important;
+    }
+    
+    .vfrc-system-response--actions {
+      padding-left: 20px !important;
+      padding-right: 10px !important;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      flex-direction: column !important;
+      align-content: stretch !important;
+      display: flex !important;
+      flex-wrap: wrap !important;
+      margin-left: 0px !important;
+    }
+    
+    [class^="vfrc-message--extension-"],
+    [class*=" vfrc-message--extension-"] {
+      padding: 0px !important;
+    }
+  
+    /* YRS: STYLE OVERRIDE VOOR TITLE HEADER VAN CHATBOT */
+  
+    /* Customize the header title to match the "Choose Your Experience" styling */
+  .vfrc-header--title {
+    font-family: "headline-gothic-atf-rough-n2", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.22em;
+    color: #ffffff; /* Matching the blue color of your header */
+    text-align: left; /* Left align for balance */
+    text-transform: uppercase; /* Optional: Makes the text all uppercase */
+    margin-left: 14px; /* Adjust the left margin */
+    margin: 0; /* Remove extra margins */
+  }
